@@ -40,3 +40,15 @@ elif score >= 50 and score < 60:
     print("Grade: D")
 else:
     print("Grade: E")
+
+# Conditionals: Assign performance based on goals scored by player
+goals = int(input("Rate best performance if goal is: "))
+
+if goals == 2:
+    print("Scored a brace ")
+elif goals >= 3:
+    print("Scored a hatrick")
+elif goals > 4:
+    print("Scored more than a hatrick")
+else:
+    print("Scored one goal")
