@@ -64,4 +64,3 @@ while player != 0:
 # For loops iterate over a list of items
 for item in [0, 1, 2, 3, 5, 7, 8]:
     print(item)
-
