@@ -52,3 +52,16 @@ elif goals > 4:
     print("Scored more than a hatrick")
 else:
     print("Scored one goal")
+
+# Loops
+# --While Loops is one type of loop that executes a comand again and again
+player = 4
+while player != 0:
+    print("goal")
+    player -= 1
+
+# For Loops
+# For loops iterate over a list of items
+for item in [0, 1, 2, 3, 5, 7, 8]:
+    print(item)
+
